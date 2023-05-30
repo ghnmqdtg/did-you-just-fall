@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  did-you-just-fall
+
+  Created by Tweizh on 2023/5/30.
+  
+*/
+
+"text_hint" = "您似乎摔死了。";
+"text_slider" = "立即聯絡火葬場";
+"text_button" = "亂講，我沒死 😡";

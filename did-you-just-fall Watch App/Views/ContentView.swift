@@ -11,7 +11,11 @@ import SlideButton
 struct ContentView: View {
     
     @Environment(\.dismiss) var dismiss
-    
+    let text_hint: LocalizedStringKey = "text_hint"
+    // let text_slider: LocalizedStringKey = "text_slider"
+    let text_button: LocalizedStringKey = "text_button"
+
+
     let styling = SlideButton.Styling(
         indicatorSize: 50,
         indicatorSpacing: 5,
@@ -28,12 +32,12 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Text("您似乎摔死了。")
+            Text(text_hint)
                 .font(.headline)
-            SlideButton("立即聯絡火葬場", styling: styling, callback: sliderCallback)
+            SlideButton(String(localized: "text_slider"), styling: styling, callback: sliderCallback)
                 .font(.headline)
                 .padding()
-            Button("亂講，我沒死") {
+            Button(text_button) {
                 dismiss()
             }
             .background(.green)

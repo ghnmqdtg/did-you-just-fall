@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  did-you-just-fall
+
+  Created by Tweizh on 2023/5/30.
+  
+*/
+
+"text_hint" = "You seem to have fallen to death.";
+"text_slider" = "Call Crematorium";
+"text_button" = "I'm not dead 😡";

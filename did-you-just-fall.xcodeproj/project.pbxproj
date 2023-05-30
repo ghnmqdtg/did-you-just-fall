@@ -15,6 +15,7 @@
 		5A9631952A2611E600F83706 /* did_you_just_fall_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9631942A2611E600F83706 /* did_you_just_fall_Watch_AppUITests.swift */; };
 		5A9631972A2611E600F83706 /* did_you_just_fall_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9631962A2611E600F83706 /* did_you_just_fall_Watch_AppUITestsLaunchTests.swift */; };
 		5A9631B02A26376F00F83706 /* SlideButton in Frameworks */ = {isa = PBXBuildFile; productRef = 5A9631AF2A26376F00F83706 /* SlideButton */; };
+		5A9631B42A2646A700F83706 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A9631B62A2646A700F83706 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		5A9631902A2611E600F83706 /* did-you-just-fall Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "did-you-just-fall Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A9631942A2611E600F83706 /* did_you_just_fall_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = did_you_just_fall_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		5A9631962A2611E600F83706 /* did_you_just_fall_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = did_you_just_fall_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5A9631B52A2646A700F83706 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5A9631B72A2646AB00F83706 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,7 @@
 		5A9631782A2611E500F83706 /* did-you-just-fall Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				5A9631B12A2645ED00F83706 /* Assets */,
 				5A9631A72A261FBB00F83706 /* Views */,
 				5A96317D2A2611E600F83706 /* Assets.xcassets */,
 				5A96317F2A2611E600F83706 /* Preview Content */,
@@ -135,6 +139,14 @@
 				5A96317B2A2611E500F83706 /* ContentView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		5A9631B12A2645ED00F83706 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5A9631B62A2646A700F83706 /* Localizable.strings */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +238,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hant",
 			);
 			mainGroup = 5A96316D2A2611E500F83706;
 			packageReferences = (
@@ -248,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A9631812A2611E600F83706 /* Preview Assets.xcassets in Resources */,
+				5A9631B42A2646A700F83706 /* Localizable.strings in Resources */,
 				5A96317E2A2611E600F83706 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +323,18 @@
 			targetProxy = 5A9631912A2611E600F83706 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A9631B62A2646A700F83706 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A9631B52A2646A700F83706 /* en */,
+				5A9631B72A2646AB00F83706 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5A9631982A2611E600F83706 /* Debug */ = {
