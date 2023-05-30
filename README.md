@@ -11,9 +11,9 @@ It provides two languages, English and Mandarin. The language will be changed ac
         <td width="33%" style="text-align:center;font-size:14px;"><b>Mandarin Version<b></td>
     </tr>
     <tr>
-        <td><img src="Images/Overview.png"></img></td>
-        <td><img src="Images/ENG.png"></img></td>
-        <td><img src="Images/ZHT.png"></img></td>
+        <td><img src="Imgs/simulator.png"></img></td>
+        <td><img src="Imgs/eng.png"></img></td>
+        <td><img src="Imgs/zht.png"></img></td>
     </tr>
 </table>
 
