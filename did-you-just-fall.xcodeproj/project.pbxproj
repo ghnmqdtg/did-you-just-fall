@@ -144,9 +144,17 @@
 		5A9631B12A2645ED00F83706 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				5A9631B82A2649DE00F83706 /* Images */,
 				5A9631B62A2646A700F83706 /* Localizable.strings */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		5A9631B82A2649DE00F83706 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
