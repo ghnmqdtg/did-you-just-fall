@@ -2,8 +2,7 @@
 ## Introduction
 Just a fun WatchOS side project without any practical use. It's won't really call the emergency service or your family members.
 
-It provides two languages, English and Mandarin. The language will be changed according to the language setting of your iPhone. The app will be terminated after you press the button. It's a good practice for me to learn how to use the `WKInterfaceTimer` and `WKInterfacePicker` in WatchOS.
-
+It provides two languages, English and Mandarin. The language will be changed according to the language setting of your iPhone.
 <table border="0">
     <tr>
         <td width="33%" style="text-align:center;font-size:14px;"><b>Simulator<b></td>
